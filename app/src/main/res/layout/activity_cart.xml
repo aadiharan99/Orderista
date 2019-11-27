@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".cart"
+    android:orientation="vertical"
+    android:id="@+id/l1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:text="Cart:"
+        android:id="@+id/ct1"
+        android:textColor="#000000"
+        />
+
+
+
+
+    <ListView
+        android:id="@+id/list1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:addStatesFromChildren="false"
+        android:paddingTop="50sp"
+        >
+
+
+    </ListView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#138808"
+        android:id="@+id/cp2"
+        android:layout_below="@id/list1"
+        android:text=""
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:paddingTop="50sp"
+
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cp2"
+        android:text="PROCEED"
+        android:textSize="16sp"
+        android:id="@+id/cbtn1"
+        />
+
+
+
+
+
+    
+
+
+</RelativeLayout>

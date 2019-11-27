@@ -1,0 +1,721 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ScrollView01"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbarStyle="insideInset"
+    android:scrollbarThumbVertical="@color/colorPrimary"
+    android:scrollbars="vertical">
+
+    <GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/g1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnCount="3"
+        android:rowCount="50"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:id="@+id/ptxt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:text="Groundnut"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:paddingLeft="10dp"
+            android:paddingTop="20dp"/>
+
+        <ImageView
+            android:id="@+id/pimg1"
+            android:layout_width="100dp"
+            android:layout_height="105dp"
+            android:layout_row="0"
+            android:layout_rowSpan="3"
+            android:layout_column="2"
+            android:layout_marginLeft="150dp"
+            android:cropToPadding="true"
+            android:paddingRight="10dp"
+            android:paddingTop="20dp"
+            android:src="@drawable/groundnuts" />
+
+        <Spinner
+            android:id="@+id/psp1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:entries="@array/Weigth"
+            android:paddingLeft="10dp"></Spinner>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="#138808"
+            android:layout_row="1"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:id="@+id/pp1"
+            />
+
+        <Button
+            android:id="@+id/pbtn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="2"
+            android:layout_column="0"
+            android:text="ADD TO CART"
+            android:paddingLeft="10dp"/>
+
+        <TextView
+            android:id="@+id/ptxt2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="3"
+            android:layout_column="0"
+            android:text="Whole Moong"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+
+            android:textSize="16dp"
+            android:textColor="#000000"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:id="@+id/dimg2"
+            android:layout_width="100dp"
+            android:layout_height="78dp"
+            android:layout_row="3"
+            android:layout_rowSpan="3"
+            android:layout_column="2"
+            android:layout_marginLeft="150dp"
+            android:src="@drawable/moongwhole"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp"/>
+
+        <Spinner
+            android:id="@+id/psp2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="4"
+            android:layout_column="0"
+            android:entries="@array/Weigth"
+            android:paddingLeft="10dp"></Spinner>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="#138808"
+            android:layout_row="4"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:id="@+id/pp2"
+            />
+
+        <Button
+            android:id="@+id/pbtn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="5"
+            android:layout_column="0"
+            android:text="ADD TO CART"
+            android:paddingLeft="10dp"/>
+
+        <TextView
+            android:id="@+id/ptxt3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="6"
+            android:layout_column="0"
+            android:text="Chickpeas"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:textColor="#000000"/>
+
+        <ImageView
+            android:id="@+id/pimg3"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="150dp"
+            android:layout_row="6"
+            android:layout_rowSpan="3"
+            android:layout_column="2"
+            android:src="@drawable/chickpeas"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp"/>
+
+        <Spinner
+            android:id="@+id/psp3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="7"
+            android:layout_column="0"
+            android:entries="@array/Weigth"
+            android:paddingLeft="10dp"></Spinner>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="#138808"
+            android:layout_row="7"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:id="@+id/pp3"
+            />
+
+        <Button
+            android:id="@+id/pbtn3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="8"
+            android:layout_column="0"
+            android:text="ADD TO CART"
+            android:paddingLeft="10dp"/>
+
+        <TextView
+            android:id="@+id/ptxt4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="9"
+            android:layout_column="0"
+            android:text="White Peas"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:textColor="#000000"/>
+
+        <ImageView
+            android:id="@+id/pimg4"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="150dp"
+            android:layout_row="9"
+            android:layout_rowSpan="3"
+            android:layout_column="2"
+            android:src="@drawable/whitepeas"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp"/>
+
+        <Spinner
+            android:id="@+id/psp4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="10"
+            android:layout_column="0"
+            android:entries="@array/Weigth"
+            android:paddingLeft="10dp"></Spinner>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="#138808"
+            android:layout_row="10"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:id="@+id/pp4"
+            />
+
+        <Button
+            android:id="@+id/pbtn4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="11"
+            android:layout_column="0"
+            android:text="ADD TO CART"
+            android:paddingLeft="10dp"/>
+
+        <TextView
+            android:id="@+id/ptxt5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="12"
+            android:layout_column="0"
+            android:text="Small Channa"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:textSize="16dp"
+            android:textColor="#000000"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:id="@+id/pimg5"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="150dp"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp"
+            android:layout_row="12"
+            android:layout_rowSpan="3"
+            android:layout_column="2"
+            android:src="@drawable/smallchana" />
+
+        <Spinner
+            android:id="@+id/psp5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="13"
+            android:layout_column="0"
+            android:entries="@array/Weigth"
+            android:paddingLeft="10dp"></Spinner>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="#138808"
+            android:layout_row="13"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:id="@+id/pp5"
+            />
+
+        <Button
+            android:id="@+id/pbtn5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="14"
+            android:layout_column="0"
+            android:text="ADD TO CART"
+            android:paddingLeft="10dp"/>
+
+        <TextView
+            android:id="@+id/ptxt6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="15"
+            android:layout_column="0"
+            android:text="Matki"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:textColor="#000000"/>
+
+        <ImageView
+            android:id="@+id/pimg6"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="150dp"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp"
+            android:layout_row="15"
+            android:layout_rowSpan="3"
+            android:layout_column="2"
+            android:src="@drawable/matki" />
+
+        <Spinner
+            android:id="@+id/psp6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="16"
+            android:layout_column="0"
+            android:entries="@array/Weigth"
+            android:paddingLeft="10dp"></Spinner>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="#138808"
+            android:layout_row="16"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:id="@+id/pp6"
+            />
+
+        <Button
+            android:id="@+id/pbtn6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="17"
+            android:layout_column="0"
+            android:text="ADD TO CART" />
+
+        <TextView
+            android:id="@+id/ptxt7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="18"
+            android:layout_column="0"
+            android:text="Rajma Red"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:textSize="16dp"
+            android:textColor="#000000"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:id="@+id/pimg7"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="150dp"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp"
+            android:layout_row="18"
+            android:layout_rowSpan="3"
+            android:layout_column="2"
+            android:src="@drawable/rajmared" />
+
+        <Spinner
+            android:id="@+id/psp7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="19"
+            android:layout_column="0"
+            android:entries="@array/Weigth"
+            android:paddingLeft="10dp"></Spinner>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="#138808"
+            android:layout_row="19"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:id="@+id/pp7"
+            />
+
+        <Button
+            android:id="@+id/pbtn7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="20"
+            android:layout_column="0"
+            android:text="ADD TO CART" />
+
+        <TextView
+            android:id="@+id/ptxt8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="21"
+            android:layout_column="0"
+            android:text="White Rajma"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:textColor="#000000"/>
+
+        <ImageView
+            android:id="@+id/pimg8"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="150dp"
+            android:layout_row="21"
+            android:layout_rowSpan="3"
+            android:layout_column="2"
+            android:src="@drawable/whiter"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp"/>
+
+        <Spinner
+            android:id="@+id/psp8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="22"
+            android:layout_column="0"
+            android:entries="@array/Weigth"
+            android:paddingLeft="10dp"></Spinner>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="#138808"
+            android:layout_row="22"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:id="@+id/pp8"
+            />
+
+        <Button
+            android:id="@+id/pbtn8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="23"
+            android:layout_column="0"
+            android:text="ADD TO CART" />
+
+        <TextView
+            android:id="@+id/ptxt9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="24"
+            android:layout_column="0"
+            android:text="Masoor Whole"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:textSize="16dp"
+            android:textColor="#000000"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:id="@+id/pimg9"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="150dp"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp"
+            android:layout_row="24"
+            android:layout_rowSpan="3"
+            android:layout_column="2"
+            android:src="@drawable/masoor" />
+
+        <Spinner
+            android:id="@+id/psp9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="25"
+            android:layout_column="0"
+            android:entries="@array/Weigth"
+            android:paddingLeft="10dp"></Spinner>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="#138808"
+            android:layout_row="25"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:id="@+id/pp9"
+            />
+
+        <Button
+            android:id="@+id/pbtn9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="26"
+            android:layout_column="0"
+            android:text="ADD TO CART" />
+
+        <TextView
+            android:id="@+id/ptxt10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="27"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:layout_column="0"
+            android:text="Big Channa"
+            android:textSize="16dp"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/pimg10"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="150dp"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp"
+            android:layout_row="27"
+            android:layout_rowSpan="3"
+            android:layout_column="2"
+            android:src="@drawable/bigchana" />
+
+        <Spinner
+            android:id="@+id/psp10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="28"
+            android:layout_column="0"
+            android:entries="@array/Weigth"
+            android:paddingLeft="10dp"></Spinner>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="#138808"
+            android:layout_row="28"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:id="@+id/pp10"
+            />
+        <Button
+            android:id="@+id/pbtn10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="29"
+            android:layout_column="0"
+            android:text="ADD TO CART" />
+
+        <TextView
+            android:id="@+id/ptxt11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="30"
+            android:layout_column="0"
+            android:text="Green Peas(Dry)"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"/>
+
+        <ImageView
+            android:id="@+id/pimg11"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="150dp"
+            android:layout_row="30"
+            android:layout_rowSpan="3"
+            android:layout_column="2"
+            android:src="@drawable/vgreen"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"/>
+
+        <Spinner
+            android:id="@+id/psp11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="31"
+            android:layout_column="0"
+            android:entries="@array/Weigth"
+            android:paddingLeft="10dp"></Spinner>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="#138808"
+            android:layout_row="31"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:id="@+id/pp11"
+            />
+
+        <Button
+            android:id="@+id/pbtn11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="32"
+            android:layout_column="0"
+            android:text="ADD TO CART" />
+
+        <TextView
+            android:id="@+id/ptxt12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:layout_row="33"
+            android:layout_column="0"
+            android:text="Green Channa"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:textColor="#000000"/>
+
+        <ImageView
+            android:id="@+id/pimg12"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="150dp"
+            android:layout_row="33"
+            android:layout_rowSpan="3"
+            android:layout_column="2"
+            android:src="@drawable/greenchana"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp"/>
+
+        <Spinner
+            android:id="@+id/psp12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="34"
+            android:layout_column="0"
+            android:entries="@array/Weigth"
+            android:paddingLeft="10dp"></Spinner>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="#138808"
+            android:layout_row="34"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:id="@+id/pp12"
+            />
+
+        <Button
+            android:id="@+id/pbtn12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="35"
+            android:layout_column="0"
+            android:text="ADD TO CART" />
+
+        <TextView
+            android:id="@+id/ptxt13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:layout_row="36"
+            android:layout_column="0"
+            android:text="Soyabean"
+            android:textSize="16dp"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/pimg13"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="150dp"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp"
+            android:layout_row="36"
+            android:layout_rowSpan="3"
+            android:layout_column="2"
+            android:src="@drawable/soybean" />
+
+        <Spinner
+            android:id="@+id/psp13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="37"
+            android:layout_column="0"
+            android:entries="@array/Weigth"
+            android:paddingLeft="10dp"></Spinner>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="#138808"
+            android:layout_row="37"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:id="@+id/pp13"
+            />
+
+        <Button
+            android:id="@+id/pbtn13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="38"
+            android:layout_column="0"
+            android:text="ADD TO CART" />
+    </GridLayout>
+</ScrollView>
+
+

@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ghee">
+
+    <GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        android:rowCount="50"
+        android:columnCount="3">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/qtxt1"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:text="Gowardhan Ghee"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:paddingTop="10sp"
+            android:textColor="#000"
+            android:paddingLeft="10sp"/>
+
+        <ImageView
+            android:id="@+id/qimg1"
+            android:layout_width="250dp"
+            android:layout_height="100dp"
+            android:layout_row="0"
+            android:layout_rowSpan="3"
+            android:layout_column="2"
+            android:cropToPadding="true"
+            android:src="@drawable/govardhanghee"
+            android:paddingTop="10sp"/>
+
+        <Spinner
+            android:id="@+id/qsp1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:entries="@array/lweight"
+            android:paddingLeft="10sp"></Spinner>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="#138808"
+            android:layout_row="1"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:id="@+id/ghp1"
+            />
+        <Button
+            android:layout_row="2"
+            android:layout_column="0"
+            android:id="@+id/qbtn1"
+            android:text="ADD TO CART"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/qtxt2"
+            android:layout_row="3"
+            android:layout_column="0"
+            android:text="Amul Pure Ghee"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="#000"
+            android:paddingLeft="10sp"
+            android:paddingTop="10sp"/>
+
+        <ImageView
+            android:id="@+id/qimg2"
+            android:layout_width="250dp"
+            android:layout_height="100dp"
+            android:layout_row="3"
+            android:layout_rowSpan="3"
+            android:layout_column="2"
+            android:src="@drawable/amulghee"
+            android:paddingTop="10sp"/>
+
+        <Spinner
+            android:id="@+id/qsp2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="4"
+            android:layout_column="0"
+            android:entries="@array/lweight"
+            android:paddingLeft="10sp"></Spinner>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="#138808"
+            android:layout_row="4"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:id="@+id/ghp2"
+            />
+        <Button
+            android:layout_row="5"
+            android:layout_column="0"
+            android:id="@+id/qbtn2"
+            android:text="ADD TO CART"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/qtxt3"
+            android:layout_row="6"
+            android:layout_column="0"
+            android:text="Premia Cow Ghee"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:paddingLeft="10sp"
+            android:paddingTop="10sp"
+            android:textColor="#000"/>
+
+        <ImageView
+            android:id="@+id/qimg3"
+            android:layout_width="250dp"
+            android:layout_height="100dp"
+            android:layout_row="6"
+            android:layout_rowSpan="3"
+            android:layout_column="2"
+            android:src="@drawable/premiaghee"
+            android:paddingTop="10sp"/>
+
+        <Spinner
+            android:id="@+id/qsp3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="7"
+            android:layout_column="0"
+            android:entries="@array/lweight"
+            android:paddingLeft="10sp"></Spinner>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="#138808"
+            android:layout_row="7"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:id="@+id/ghp3"
+            />
+        <Button
+            android:layout_row="8"
+            android:layout_column="0"
+            android:id="@+id/qbtn3"
+            android:text="ADD TO CART"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/qtxt4"
+            android:layout_row="9"
+            android:layout_column="0"
+            android:text="Mother Dairy"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="#000"
+            android:paddingLeft="10sp"
+            android:paddingTop="10sp"/>
+
+        <ImageView
+            android:id="@+id/qimg4"
+            android:layout_width="250dp"
+            android:layout_height="100dp"
+            android:layout_row="9"
+            android:layout_rowSpan="3"
+            android:layout_column="2"
+            android:src="@drawable/mdghee"
+            android:paddingTop="10sp"/>
+
+        <Spinner
+            android:id="@+id/qsp4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="10"
+            android:layout_column="0"
+            android:entries="@array/lweight"
+            android:paddingLeft="10sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="#138808"
+            android:layout_row="10"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:id="@+id/ghp4"
+            />
+        <Button
+            android:layout_row="11"
+            android:layout_column="0"
+            android:id="@+id/qbtn4"
+            android:text="ADD TO CART"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/qtxt5"
+            android:layout_row="12"
+            android:layout_column="0"
+            android:text="Dalda"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:paddingTop="10sp"
+            android:paddingLeft="10sp"
+            android:textColor="#000"/>
+
+        <ImageView
+            android:id="@+id/qimg5"
+            android:layout_width="250dp"
+            android:layout_height="100dp"
+            android:layout_row="12"
+            android:layout_rowSpan="3"
+            android:layout_column="2"
+            android:src="@drawable/dalda"
+            android:paddingTop="10sp"/>
+
+        <Spinner
+            android:id="@+id/qsp5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="13"
+            android:layout_column="0"
+            android:entries="@array/lweight"
+            android:paddingLeft="10sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="#138808"
+            android:layout_row="13"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:id="@+id/ghp5"
+            />
+        <Button
+            android:layout_row="14"
+            android:layout_column="0"
+            android:id="@+id/qbtn5"
+            android:text="ADD TO CART"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"/>
+
+
+
+    </GridLayout>
+
+</ScrollView>

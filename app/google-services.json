@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "707173946940",
+    "firebase_url": "https://orderista-943a9.firebaseio.com",
+    "project_id": "orderista-943a9",
+    "storage_bucket": "orderista-943a9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:707173946940:android:1a82a2d2b2d86471",
+        "android_client_info": {
+          "package_name": "com.example.orderista"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "707173946940-7c9bkeeblgqhddg2oolbd97tdqb7c2ff.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.orderista",
+            "certificate_hash": "1388f7c54434f1dc6dfe62c1a4b50097936270cd"
+          }
+        },
+        {
+          "client_id": "707173946940-4ufeqtn5gvong4053jgunlaehsdcd3im.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBt62nwnaR3syhxx7xfj2hwMu69CuATYqA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "707173946940-4ufeqtn5gvong4053jgunlaehsdcd3im.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

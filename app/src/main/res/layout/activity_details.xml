@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".details">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt1"
+            android:text="Name"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="22dp"
+            android:gravity="center"
+            android:layout_alignParentTop="true"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:id="@+id/ed1"
+            android:inputType="text"
+            android:layout_below="@id/txt1" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt2"
+            android:text="Contact No"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="22dp"
+            android:gravity="center"
+            android:layout_below="@id/ed1"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:id="@+id/ed2"
+            android:inputType="phone"
+            android:layout_below="@id/txt2" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt3"
+            android:text="Email ID"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="22dp"
+            android:gravity="center"
+            android:layout_below="@id/ed2"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:id="@+id/ed3"
+            android:inputType="textEmailAddress"
+            android:layout_below="@id/txt3" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt4"
+            android:text="Address"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="22dp"
+            android:gravity="center"
+            android:layout_below="@id/ed3"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:id="@+id/ed4"
+            android:hint="House No"
+            android:layout_below="@id/txt4" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:id="@+id/ed5"
+            android:hint="Street"
+            android:layout_below="@id/ed4"
+            android:inputType="text"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:id="@+id/ed6"
+            android:hint="Area"
+            android:layout_below="@id/ed5"
+            android:inputType="text"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:id="@+id/ed7"
+            android:hint="Landmark"
+            android:layout_below="@id/ed6"
+            android:inputType="text"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:id="@+id/ed8"
+            android:hint="City"
+            android:layout_below="@id/ed7"
+            android:inputType="text"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt5"
+            android:layout_below="@id/ed8"
+            android:text="Pincode"
+            android:gravity="center"
+            android:textSize="22dp"
+            android:textColor="@color/colorPrimaryDark"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:id="@+id/ed9"
+            android:inputType="textPostalAddress"
+            android:layout_below="@id/txt5" />
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/sp1"
+            android:layout_below="@id/ed9"
+            android:entries="@array/Time"
+            android:textAlignment="center"
+            android:layout_marginTop="20dp"
+            ></Spinner>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tt1"
+            android:layout_below="@id/sp1"/>
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tt1"
+            android:gravity="center"
+            android:text="SAVE"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="35dp"/>
+
+    </RelativeLayout>
+
+
+
+</ScrollView>
